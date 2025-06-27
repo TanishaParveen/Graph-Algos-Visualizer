@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Graph Algorithm Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="controls">
+    <button onclick="mode = 'addNode'">Add Node</button>
+    <button onclick="mode = 'addEdge'">Add Edge</button>
+    <select id="algoSelect">
+      <option value="bfs">BFS</option>
+      <option value="dfs">DFS</option>
+      <option value="dijkstra">Dijkstra</option>
+      <option value="bellman">Bellman-Ford</option>
+      <option value="floyd">Floyd-Warshall</option>
+      <option value="prim">Prim's MST</option>
+      <option value="kruskal">Kruskal's MST</option>
+    </select>
+    <button onclick="startAlgorithm()">Start</button>
+  </div>
+
+  <div id="main">
+    <canvas id="graphCanvas" width="800" height="600"></canvas>
+    <div id="result">
+      <h3>Traversal Result</h3>
+      <div id="output"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
