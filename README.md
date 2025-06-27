@@ -1,1 +1,3 @@
 # Graph-Algos-Visualizer
+<br>
+This project is a Graph Algorithm Visualizer built using HTML, CSS, and JavaScript. It provides an interactive way to understand how different graph algorithms work by allowing users to add nodes and edges dynamically on a canvas. Each edge is assigned a random weight, and users can choose from a variety of algorithms like BFS, DFS, Dijkstra, Bellman-Ford, Floyd-Warshall, Prim's MST, and Kruskal's MST to see how they operate step-by-step. The traversal path is visually highlighted, and the result or traversal order is displayed in a sidebar. This tool is especially useful for students, educators, or anyone looking to learn or demonstrate graph algorithms in an intuitive and visual manner.
